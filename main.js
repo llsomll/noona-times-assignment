@@ -1,7 +1,7 @@
 const API_KEY = `17d92ecdea1142fa964e877d98fa9512`;
 let newsList = [];
 const noPhoto = "images/no-photo.jpg";
-const menus = document.querySelectorAll(".menus");
+const menus = document.querySelectorAll("#menu-list button");
 menus.forEach(menu=>menu.addEventListener("click",(event)=>getNewsByCategory(event)));
 const searchInput = document.getElementById("search-input").value;
 

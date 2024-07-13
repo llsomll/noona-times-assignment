@@ -92,7 +92,18 @@
   #input-area {
     display: none;
   }
+
+
+  .pagination-nav {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
   
+
+.page-link {
+    cursor: pointer;
+  }
  
   @media screen and (max-width: 63rem) {
     .menus {
@@ -104,3 +115,4 @@
     }
 
   }
+

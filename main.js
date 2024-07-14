@@ -57,6 +57,7 @@ const getNewsByCategory = async (event) => {
 const getElementByKeyword = async () => {
   const keyword = searchInput.value;
   console.log("keyword", keyword);
+  page = 1;
   url = new URL(`https://noona-times-be-5ca9402f90d9.herokuapp.com/top-headlines?country=kr&q=${keyword}`);
   // const url = new URL(`https://newsapi.org/v2/top-headlines?country=us&q=${keyword}&apiKey=${API_KEY}`);
 
